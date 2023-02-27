@@ -15,10 +15,10 @@ header nav {
   align-items: center;
   gap: 0 2em;
   margin: auto;
-  max-width: 1264px;
   height: var(--nav-height);
   padding: 0 1rem;
   font-family: var(--body-font-family);
+  margin: 0;
 }
 
 header nav[aria-expanded=true] {
@@ -272,4 +272,12 @@ header nav .nav-sections ul > li > ul > li {
 /* tools */
 header nav .nav-tools {
   grid-area: tools;
+}
+
+header .nav-brand {
+  display: none;
+}
+
+header ul {
+  justify-content: flex-end;
 }

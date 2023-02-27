@@ -1,0 +1,13 @@
+.titles {
+    color: #fff;
+    text-align: center;
+
+}
+
+.titles h1 {
+    font-family: GeoBrandBold,CenturyGothic,AppleGothic,Gill Sans,Gill Sans MT,sans-serif;
+    font-size: 54px;
+    letter-spacing: 3px;
+    line-height: 1.5;
+    text-transform: uppercase;
+}
