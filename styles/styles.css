@@ -132,6 +132,7 @@ pre {
 
 /* buttons */
 
+/*
 a.button:any-link, button {
   font-family: var(--body-font-family);
   display: inline-block;
@@ -150,6 +151,13 @@ a.button:any-link, button {
   overflow: hidden;
   text-overflow: ellipsis;
   border-radius: 30px;
+}
+*/
+
+a.button:any-link, button {
+  inline-size: 150px;
+  overflow-wrap: break-word;
+  color:#fff;
 }
 
 a.button:hover, a.button:focus, button:hover, button:focus  {
@@ -267,4 +275,7 @@ main .default-content-wrapper {
   color: #fff;
 }
 
-
+.zoomcards-container {
+  display: inline-flex;
+  padding-left: 20% !important;
+}

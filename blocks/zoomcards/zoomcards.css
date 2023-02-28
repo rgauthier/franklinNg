@@ -1,0 +1,9 @@
+.zoomcards {
+    display: inline-flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.zoomcards div:nth-child(1) {
+    width:100%;
+}

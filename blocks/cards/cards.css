@@ -5,11 +5,14 @@
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
     grid-gap: 16px;
+    display:block;
 }
 
 .cards > ul > li {
     border: 1px solid var(--highlight-background-color);
-    background-color: var(--background-color)
+    background-color: var(--background-color);
+    color: #ffffff;
+    background-color: #000000;
 }
 
 .cards .cards-card-body {
@@ -28,4 +31,43 @@
     width: 100%;
     aspect-ratio: 4 / 3;
     object-fit: cover;
+}
+
+.cards > ul > li {
+    display: inline-flex;
+    flex-direction: row;
+}
+
+.cards > ul > li h2 {
+    font-size: 32px;
+}
+
+.cards > ul  {
+    width: 300px;
+}
+
+.cards > ul > li div:first-child {
+    width: 35%;
+}
+
+.cards > ul > li div:last-child {
+    width: 65%;
+}
+.cards > ul > li:first-child,
+.cards > ul > li:last-child   {
+    width: 300px;
+}
+.cards > ul > li:first-child div:first-child,
+.cards > ul > li:last-child div:first-child {
+    width: 95%;
+}
+
+.cards > ul > li:first-child div:last-child,
+.cards > ul > li:last-child div:last-child {
+    width: 5%;
+}
+
+.section > div {
+    max-width: unset;
+    margin: unset;
 }
