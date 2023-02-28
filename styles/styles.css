@@ -12,8 +12,8 @@
 
  :root {
   /* colors */
-  --link-color: #035fe6;
-  --link-hover-color: #136ff6;
+  --link-color: #fff;
+  --link-hover-color: #fc0;
   --background-color: #fff;
   --overlay-background-color: #eee;
   --highlight-background-color: #ccc;
@@ -48,8 +48,8 @@
 
 /* colors */
 --text-color: #000000;
---link-color: #0000ee;
---link-hover-color: #0000ee;
+--link-color: #fff;
+--link-hover-color: #fc0;
 --background-color: #ffffff;
 --overlay-background-color: #eeeeee;
 --highlight-background-color: #cccccc;
@@ -240,7 +240,7 @@ main img {
 
 @media (min-width: 600px) {
   main .section {
-    padding: 64px 32px;
+    padding: 64px 0;
   }  
 }
 
@@ -278,4 +278,5 @@ main .default-content-wrapper {
 .zoomcards-container {
   display: inline-flex;
   padding-left: 20% !important;
+  padding-top: 0 !important;
 }

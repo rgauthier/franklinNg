@@ -4,49 +4,39 @@
     padding: 0;
     display:block;
 }
-
 .cards > ul > li {
-    color: #ffffff;
+    background-color: var(--background-color);
+    color: #FFFFFF;
     background-color: #000000;
 }
-
 .cards .cards-card-body {
     margin-top: 0;
     margin-left: 10px;
     margin-right: 16px;
-}
-
+ }
 .cards .cards-card-image {
     line-height: 0;
 }
-
 .cards .cards-card-body > *:first-child {
     margin-top: 0;
 }
-
 .cards > ul > li img {
     width: 100%;
-    aspect-ratio: 4 / 3;
     object-fit: cover;
 }
-
 .cards > ul > li {
     display: inline-flex;
     flex-direction: row;
 }
-
 .cards > ul > li h2 {
     font-size: 32px;
 }
-
 .cards > ul  {
     width: 300px;
 }
-
 .cards > ul > li div:first-child {
     width: 35%;
 }
-
 .cards > ul > li div:last-child {
     width: 65%;
 }
@@ -58,12 +48,10 @@
 .cards > ul > li:last-child div:first-child {
     width: 95%;
 }
-
 .cards > ul > li:first-child div:last-child,
 .cards > ul > li:last-child div:last-child {
     width: 5%;
 }
-
 .section > div {
     max-width: unset;
     margin: unset;
