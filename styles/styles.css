@@ -195,9 +195,14 @@ main input:hover {
   border: 1px solid var(--text-color);
 }
 
+main,
 main .section {
   padding: 64px 16px;
   background-color: #000;
+}
+
+main {
+  padding: 0px;
 }
 
 main pre {
@@ -232,11 +237,11 @@ hr {
   border-bottom: 1px solid var(--overlay-background-color);
 }
 
-main img {
+/*main img {
   max-width: 100%;
   width: auto;
   height: auto;
-}
+}*/
 
 @media (min-width: 600px) {
   main .section {
@@ -277,6 +282,6 @@ main .default-content-wrapper {
 
 .zoomcards-container {
   display: inline-flex;
-  padding-left: 20% !important;
+  padding-left: 15% !important;
   padding-top: 0 !important;
 }

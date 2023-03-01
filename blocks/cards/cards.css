@@ -39,8 +39,25 @@
     font-size: 32px;
 }
 
+.cards .cards-card-body p:first-child{
+    margin-bottom: 0;
+}
+
+.cards .cards-card-body p:last-child{
+    margin-top: 0;
+}
+
+.cards a:hover {
+    background-color: unset;
+}
+
 .cards > ul  {
-    width: 300px;
+    width: 350px;
+}
+
+.cards > ul > li {
+    padding-bottom: 10px;
+    margin-right: 30px;
 }
 
 .cards > ul > li div:first-child {
@@ -52,7 +69,7 @@
 }
 .cards > ul > li:first-child,
 .cards > ul > li:last-child   {
-    width: 300px;
+    width: 350px;
 }
 .cards > ul > li:first-child div:first-child,
 .cards > ul > li:last-child div:first-child {
