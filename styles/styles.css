@@ -285,3 +285,7 @@ main .default-content-wrapper {
   padding-left: 15% !important;
   padding-top: 0 !important;
 }
+
+body {
+  -webkit-font-smoothing: antialiased;
+}

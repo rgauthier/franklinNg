@@ -52,3 +52,7 @@
 .background-overlay > div > div:last-child p:nth-child(3) a {
     border-bottom: 2px solid #fc0;
 }
+
+main .overlay-container {
+    padding-bottom: 0;
+}
