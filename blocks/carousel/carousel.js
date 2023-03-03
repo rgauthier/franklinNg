@@ -7,7 +7,7 @@ const moveCardSelection = (direction) => {
         let showSet = false;
         [...carousel.children].forEach((row, index) => {
             if(index > 0 && index < (itemCount-1)) {
-                if(!hideSet && row.className === "show-card"){
+                if(!hideSet && row.className === "show-card" && index < (itemCount-6)){
                     row.className="hide-card";
                     hideSet = true;
                 } else if(hideSet && !showSet && row.className === "hide-card"){
@@ -21,7 +21,7 @@ const moveCardSelection = (direction) => {
         let showSet = false;
         let rows = carousel.children;
         for (let i = (itemCount-1); i >= 0; i--) {
-            if(!hideSet && rows[i].className === "show-card"){
+            if(!hideSet && rows[i].className === "show-card" && i > 5){
                 rows[i].className="hide-card";
                 hideSet = true;
             } else if(hideSet && !showSet && rows[i].className === "hide-card"){

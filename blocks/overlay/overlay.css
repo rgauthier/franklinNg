@@ -15,6 +15,7 @@
 .background-overlay img {
     opacity: .5;
     width: 100%;
+    height: auto;
 }
 
 .background-overlay > div > div:last-child p:first-child {
