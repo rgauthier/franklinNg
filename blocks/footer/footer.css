@@ -1,14 +1,161 @@
-footer {
-  padding: 2rem;
-  background-color: var(--overlay-background-color);
-  font-size: var(--body-font-size-s);
-}
-
-footer .footer {
-  max-width: 1200px;
-  margin: auto;
-}
 
 footer .footer p {
-  margin: 0;
-}
+  background-color: black;
+  }
+
+  footer .footer-wraper {
+   height: 400px;
+  }
+
+  footer .natgeo-footer {
+    min-height: 400px;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    overflow: hidden;
+    background-color: black;
+  }
+  
+  .footer-elements-wrapper {
+    max-width: 500px;
+    margin: 0 auto;
+    display: flex;
+    flex-flow: row wrap;
+  }
+  
+  .footer-elements-wrapper div {
+    justify-content: space-between;
+  }
+  
+  .natgeo-footer .legal, .oursites,  .joinus, .followus {
+    display: none;
+  }
+
+  .copyright {
+    font-size: var(--body-font-size-xxs);
+    line-height: 1.5;
+  }
+  
+  .natgeo-footer .natgeo-footer .natlogo {
+    flex-grow: 2;
+    min-width: 40%;
+    justify-content: center;
+  }
+  
+
+  .natgeo-footer h3 {
+    font-size: 12px;
+    font-weight: 400;
+    letter-spacing: 3px;
+    color:#fff
+  }
+  
+  .natgeo-footer ul {
+    list-style: none;
+    padding-left: 0;
+  }
+  
+  .natgeo-footer ul li {
+    font-size: 12px;
+    list-style: none;
+    padding-left: 0;
+    letter-spacing: .1px;
+  }
+
+  .natgeo-footer a {
+    color: #fff;
+  }
+  
+  @media (min-width: 768px) {
+    footer .footer {
+      max-width: 2200px;
+      margin: auto;
+    }
+  
+    footer .natgeo-footer {
+      height: 350px;
+    }
+  
+    .footer-elements-wrapper {
+      max-width: unset;
+      width: 768px;
+    }
+  
+    .natgeo-footer h3 {
+      margin-top: 5px;
+    }
+  
+    .natgeo-footer ul {
+      font-size: var(--body-font-size-xs);
+    }
+  
+    .natgeo-footer ul li {
+      line-height: 1.6em;
+    }
+  
+    .natgeo-footer .natlogo {
+      padding-top: 20px;
+      display: flex;
+      color: #fff;
+    }
+  
+    .natgeo-footer .natlogo > picture > img {
+      width: 200px;
+      height: 80px;
+    } 
+
+    .natgeo-footer .legal, .natgeo-footer .oursites , .natgeo-footer .joinus, .natgeo-footer .followus, .natgeo-footer .natlogo  {
+      display: block;
+      flex-grow: 1;
+      padding: 0 5px;
+    }
+       
+    .natgeo-footer .copyright {
+      padding-top: 50px;
+      width: 100%;
+      height: 70px;
+      font-size: var(--body-font-size-xs);
+    }
+
+  }
+
+  @media (min-width: 1024px) {
+    footer .natgeo-footer {
+      height: 425px;
+    }
+  
+    .footer-elements-wrapper {
+      width: 1004px;
+    }
+
+    .natgeo-footer ul, .natgeo-footer .copyright {
+      font-size: var(--body-font-size-m);
+    }
+  
+  }
+
+  @media (min-width: 1280px) {
+    footer .natgeo-footer {
+      height: 400px;
+    }
+  
+    .footer-elements-wrapper {
+      width: 1260px;
+    }
+
+    .natgeo-footer .logo > picture > img {
+      width: 220px;
+      height: 205px;
+    }
+  
+  }
+  
+  @media (min-width: 1620px) {
+    footer .natgeo-footer {
+      height: 450px;
+    }
+  
+    .footer-elements-wrapper {
+      width: 1080px;
+    }
+  }
